@@ -24,7 +24,7 @@ public class CapturaDeteccao {
         // detecção de faces com Cascade
         CascadeClassifier detectorFace;
 
-        detectorFace = new CascadeClassifier("src/Reconhecimento/haarcascade_frontalface_alt.xml");
+        detectorFace = new CascadeClassifier("src/recursos/");
 
         // Janela de preview - Jframe, desenho de uma janela
         // recomendado na documentação = 1/1

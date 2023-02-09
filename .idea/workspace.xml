@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f810a5c-ebe1-4e74-a0c8-3793e7c651f2" name="Changes" comment="ADD: refatorando - captura Webcam">
-      <change afterPath="$PROJECT_DIR$/src/Reconhecimento/CapturaDeteccao.java" afterDir="false" />
+    <list default="true" id="9f810a5c-ebe1-4e74-a0c8-3793e7c651f2" name="Changes" comment="ADD: Detecção Haarscascade">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/recursos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reconhecimento/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursos/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursos/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReconhecimentoFacial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReconhecimentoFacial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reconhecimento/CapturaDeteccao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reconhecimento/CapturaDeteccao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -31,18 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/luiz/Java/ReconhecimentoFacial/src/Recursos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/luiz/Java/ReconhecimentoFacial/src/recursos",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/recursos" />
+      <recent name="$PROJECT_DIR$/src/Reconhecimento" />
       <recent name="$PROJECT_DIR$/src/Recursos" />
     </key>
   </component>
@@ -83,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675907392268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ADD: Detecção Haarscascade">
+      <created>1675907990695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675907990695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +118,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADD: captura WEBCAM" />
     <MESSAGE value="ADD: refatorando - captura Webcam" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: refatorando - captura Webcam" />
+    <MESSAGE value="ADD: Detecção Haarscascade" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: Detecção Haarscascade" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsatisfiedLinkError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="XBreakpointGroupingByClassRule" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ReconhecimentoFacial$Captura.ic" NAME="Captura Coverage Results" MODIFIED="1675910835497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Reconhecimento.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ReconhecimentoFacial$CapturaDeteccao.ic" NAME="CapturaDeteccao Coverage Results" MODIFIED="1675910816060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Reconhecimento.*</FILTER>
+    </SUITE>
   </component>
 </project>
