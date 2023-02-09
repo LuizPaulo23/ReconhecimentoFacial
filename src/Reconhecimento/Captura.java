@@ -5,10 +5,7 @@ import org.bytedeco.javacv.FrameGrabber;
 import org.bytedeco.javacv.OpenCVFrameConverter;
 import org.bytedeco.javacv.OpenCVFrameGrabber;
 import java.awt.event.KeyEvent;
-
-
 public class Captura {
-
     public static void main(String[] args) throws FrameGrabber.Exception {
         KeyEvent tecla = null; // capturar clicando um tecla
         OpenCVFrameConverter.ToMat converteMat = new OpenCVFrameConverter.ToMat(); // convertendo captura, matriz
