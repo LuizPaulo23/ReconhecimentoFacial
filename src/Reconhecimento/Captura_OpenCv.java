@@ -1,13 +1,16 @@
-package Reconhecimento;
+package Reconhecimento;//papckage Reconhecimento;
 import org.bytedeco.javacv.CanvasFrame;
 import org.bytedeco.javacv.Frame;
 import org.bytedeco.javacv.FrameGrabber;
 import org.bytedeco.javacv.OpenCVFrameConverter;
 import org.bytedeco.javacv.OpenCVFrameGrabber;
+import org.opencv.core.Mat;
+import org.opencv.core.Scalar;
+import org.opencv.objdetect.CascadeClassifier;
 import java.awt.event.KeyEvent;
 
 
-public class Captura {
+public class Captura_OpenCv {
 
     public static void main(String[] args) throws FrameGrabber.Exception {
         KeyEvent tecla = null; // capturar clicando um tecla
@@ -18,13 +21,19 @@ public class Captura {
 
         camera.start(); // throws FrameGrabber.Exception
         // código que pode lançar a exceção FrameGrabber.Exception
+        // detecção de faces com Cascade
+        CascadeClassifier detectorFace;
+
+        detectorFace = new CascadeClassifier();
+
         // Janela de preview - Jframe, desenho de uma janela
         // recomendado na documentação = 1/1
         CanvasFrame cFrame = new CanvasFrame("preview", CanvasFrame.getDefaultGamma()/camera.getGamma());
         Frame frameCapturado = null;
+        Mat imagemColorida = new Mat(); // jolgar o que está em frame capturado
         // Recebe WEBCAM (camera.grab) e guarda em frameCapturado
         while ((frameCapturado = camera.grab()) != null){
-            //Se visível, mostrar = showImage
+        //Se visível, mostrar = showImage
             if(cFrame.isValid()){
                 cFrame.showImage(frameCapturado);
             }
@@ -34,6 +43,9 @@ public class Captura {
         //cFrame.dispose();
         //camera.stop();
 
+    }
+
+    private static void rectangle(Mat imagemColorida, int[] dadosFace, Scalar scalar) {
     }
 
 }

@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f810a5c-ebe1-4e74-a0c8-3793e7c651f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/artoolkitplus_android_x86_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reconhecimento/Captura.java" afterDir="false" />
+    <list default="true" id="9f810a5c-ebe1-4e74-a0c8-3793e7c651f2" name="Changes" comment="ADD: captura WEBCAM">
+      <change afterPath="$PROJECT_DIR$/src/Recursos/haarcascade_frontalface_alt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReconhecimentoFacial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ReconhecimentoFacial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reconhecimento/Captura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reconhecimento/Captura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +38,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/luiz/Java/ReconhecimentoFacial/javacv-platform-1.5.8-bin/videoinput.jar",
+    "last_opened_file_path": "/home/luiz/Java/ReconhecimentoFacial/src/Recursos",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Recursos" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +58,18 @@
       <option name="presentableId" value="Default" />
       <updated>1675822138880</updated>
     </task>
+    <task id="LOCAL-00001" summary="ADD: captura WEBCAM">
+      <created>1675825881046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675825881046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD: captura WEBCAM" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: captura WEBCAM" />
   </component>
 </project>
