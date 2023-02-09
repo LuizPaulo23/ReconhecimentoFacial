@@ -4,10 +4,13 @@ import org.bytedeco.javacv.Frame;
 import org.bytedeco.javacv.FrameGrabber;
 import org.bytedeco.javacv.OpenCVFrameConverter;
 import org.bytedeco.javacv.OpenCVFrameGrabber;
+import org.opencv.core.Core;
 import org.opencv.core.Mat;
+import org.opencv.core.MatOfRect;
 import org.opencv.core.Scalar;
 import org.opencv.objdetect.CascadeClassifier;
 import java.awt.event.KeyEvent;
+
 
 
 public class CapturaDeteccao {
@@ -23,18 +26,17 @@ public class CapturaDeteccao {
         // código que pode lançar a exceção FrameGrabber.Exception
         // detecção de faces com Cascade
         CascadeClassifier detectorFace;
-
-        detectorFace = new CascadeClassifier("src/recursos/");
+        detectorFace = new CascadeClassifier("src/recursos/haarcascade_frontalface_alt.xml");
 
         // Janela de preview - Jframe, desenho de uma janela
         // recomendado na documentação = 1/1
-        CanvasFrame cFrame = new CanvasFrame("preview", CanvasFrame.getDefaultGamma()/camera.getGamma());
+        CanvasFrame cFrame = new CanvasFrame("preview", CanvasFrame.getDefaultGamma() / camera.getGamma());
         Frame frameCapturado = null;
         Mat imagemColorida = new Mat(); // jolgar o que está em frame capturado
         // Recebe WEBCAM (camera.grab) e guarda em frameCapturado
-        while ((frameCapturado = camera.grab()) != null){
+        while ((frameCapturado = camera.grab()) != null) {
             //Se visível, mostrar = showImage
-            if(cFrame.isValid()){
+            if (cFrame.isValid()) {
                 cFrame.showImage(frameCapturado);
             }
 
