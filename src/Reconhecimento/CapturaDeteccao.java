@@ -26,7 +26,7 @@ public class CapturaDeteccao {
         // código que pode lançar a exceção FrameGrabber.Exception
         // detecção de faces com Cascade
         CascadeClassifier detectorFace;
-        detectorFace = new CascadeClassifier("src/recursos/haarcascade_frontalface_alt.xml");
+        detectorFace = new CascadeClassifier("haarscascade//frontalface_alt.xml");
 
         // Janela de preview - Jframe, desenho de uma janela
         // recomendado na documentação = 1/1

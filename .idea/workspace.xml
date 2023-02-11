@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f810a5c-ebe1-4e74-a0c8-3793e7c651f2" name="Changes" comment="ADD: Detecção Haarscascade">
+      <change afterPath="$PROJECT_DIR$/src/Reconhecimento/haarcascade_frontalface_alt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reconhecimento/CapturaDeteccao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reconhecimento/CapturaDeteccao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reconhecimento/haarcascade_frontalface_alt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursos/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursos/haarcascade_frontalcatface_extended.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursos/haarcascade_frontalface_default.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/luiz/Java/ReconhecimentoFacial/src/recursos",
+    "last_opened_file_path": "/home/luiz/Java/ReconhecimentoFacial/src/Reconhecimento",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -50,8 +48,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/recursos" />
       <recent name="$PROJECT_DIR$/src/Reconhecimento" />
+      <recent name="$PROJECT_DIR$/src/recursos" />
       <recent name="$PROJECT_DIR$/src/Recursos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
